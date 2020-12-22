@@ -12,6 +12,15 @@ Resource for industry classification IJOC submission
 * Gensim
 * pandas
 
+## Input data
+
+#### You can download the input data with the following link:
+
+```
+https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sharing
+```
+
+
 ## Quick Demo
 
 #### To run the model (including data processing), clone the repo and decompress the demo data archive by executing the following commands:
