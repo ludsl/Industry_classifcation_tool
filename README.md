@@ -44,7 +44,7 @@ python evaluation.py --sec 1 --rf LDA_output_file
 
 #### To use the powerbi software:
 
-#### You can open the Powerbi file. The SPICS.pbix is the powerbi report and there is a user manual (.pdf) for detailed guidance. 
+#### You can open the Powerbi file. There is a user manual (.pdf) for detailed guidance. 
 
 ## Citation
 
