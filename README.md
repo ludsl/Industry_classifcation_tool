@@ -45,6 +45,3 @@ python evaluation.py --sec 1 --rf LDA_output_file
 
 You can open the Powerbi file. There is a user manual (.pdf) for detailed guidance. 
 
-## Citation
-
-If you find the paper or the implementation helpful, please cite the following paper:
