@@ -26,7 +26,7 @@ https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sha
 #### To run the model (including data processing), clone the repo and decompress the demo data archive by executing the following commands:
 
 ``` 
-git clone git@github.com:jeaninesong/SPICS.git
+git clone git@github.com:ludsl/Industry_classifcation_tool.git
 cd LDA
 python LDA.py --f sample.csv
 ```
