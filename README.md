@@ -1,7 +1,7 @@
 # Industry_classifcation_tool
 Resource for industry classification IJOC submission
 
-# SPICS: An Unsupervised Framework for Analysingthe Spatiotemporal Evolution of Industry Clusters 
+# SPICS: An Unsupervised Framework for Analysing the Spatiotemporal Evolution of Industry Clusters 
 
 This repo contains the Python implementation of the paper SPICS: An Unsupervised Framework for Analysing the Spatiotemporal Evolution of Industry Clusters in IJOC (Software Tool)
 
