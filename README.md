@@ -14,12 +14,12 @@ Resource for industry classification IJOC submission
 
 ## Input data
 
-#### You can download the input data with the following link:
+#### You can download the whole input data with the following link:
 
 ```
 https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sharing
 ```
-
+#### Also, we provide a toy raw data (sample.csv) for you to test the whole pipeline.
 
 ## Quick Demo
 
@@ -28,7 +28,7 @@ https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sha
 ``` 
 git clone git@github.com:jeaninesong/SPICS.git
 cd LDA
-python LDA.py --f input_file
+python LDA.py --f sample.csv
 ```
 
 ##### You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
