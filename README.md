@@ -12,9 +12,9 @@ Resource for industry classification IJOC submission
 * Gensim
 * pandas
 
-## Input data (.csv) and Power BI file (.pbix) 
+## Input data and Power BI file 
 
-#### You can download the whole input data and Power BI file with the following link:
+#### You can download the whole input data (.csv) and Power BI file (.pbix) with the following link:
 
 ```
 https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sharing
