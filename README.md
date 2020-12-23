@@ -50,7 +50,7 @@ python evaluation.py --sec 1 --rf LDA_output
 ``` 
 --sec 1 is for the evaluation of section level in SIC code, --sec 0 is for the division level in SIC code. 
 
-#### To use the powerbi software:
+#### To use the Power BI software:
 
-You can open the src/Powerbi file. There is a user manual (.pdf) for detailed guidance. 
+You can open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
 
