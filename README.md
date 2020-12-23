@@ -56,5 +56,5 @@ python evaluation.py --sec 1 --rf LDA_output
 
 You can download and open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
 
-You can use to src/Power BI/powerbi.py to generate the input data for the Power BI software. 
+You can use to src/PowerBI/powerbi.py to generate the input data for the Power BI software. 
 
