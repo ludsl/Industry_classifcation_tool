@@ -32,7 +32,7 @@ Also, we provide a toy raw data (demo_data_irec.csv and demo_data_walmid.csv) fo
 
 ## Quick Demo
 
-To run the model (including data processing), clone this repo and copy the demo data (data/demo_data_irec.csv or data/demo_data_walmid.csv into src/LDA file archive by executing the following commands:
+To run the model (including data processing), clone this repo and copy the demo data (data/demo_data_irec.csv or data/demo_data_walmid.csv) into src/LDA file archive by executing the following commands:
 
 ``` 
 git clone git@github.com:ludsl/Industry_classifcation_tool.git
