@@ -54,5 +54,5 @@ python evaluation.py --sec 1 --rf LDA_output
 
 #### To use the Power BI software:
 
-You can open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
+You can download and open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
 
