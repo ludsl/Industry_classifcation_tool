@@ -56,5 +56,13 @@ python evaluation.py --sec 1 --rf LDA_output
 
 You can download and open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
 
-You can use to src/PowerBI/powerbi.py to generate the input data for the Power BI software. 
+You can copy the LDA output of both IREC and WALMID to src/PowerBI and use to src/PowerBI/powerbi.py to generate the input data for the Power BI software by executing the following commands:
+
+```
+cd src/PowerBI/powerbi.py
+python powerbi.py --irecf LDA_output_IREC.csv --walmidf LDA_output_WALMID.csv
+```
+
+
+
 
