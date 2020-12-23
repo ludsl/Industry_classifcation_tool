@@ -28,16 +28,16 @@ https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sha
 https://mylingnan-my.sharepoint.com/:f:/g/personal/allentan_ln_edu_hk/Ek-O_ydpy-xApwg5bxE-ZKgBDQzzkFBTUh25b4ya7tciPg?e=k1qYKh
 ```
 
-Also, we provide a toy raw data (demo_data_irec.csv and demo_data_walmid.csv) for you to test the whole pipeline in the data file.
+Also, we provide a toy raw data (demo_data_IREC.csv and demo_data_WALMID.csv) for you to test the whole pipeline in the data file.
 
 ## Quick Demo
 
-To run the model (including data processing), clone this repo and copy the demo data (data/demo_data_irec.csv or data/demo_data_walmid.csv) into src/LDA file archive by executing the following commands:
+To run the model (including data processing), clone this repo and copy the demo data (data/demo_data_IREC.csv or data/demo_data_WALMID.csv) into src/LDA file archive by executing the following commands:
 
 ``` 
 git clone git@github.com:ludsl/Industry_classifcation_tool.git
 cd src/LDA
-python LDA.py --f demo_data_irec.csv --rf LDA_irec_output
+python LDA.py --f demo_data_IREC.csv --rf LDA_irec_output
 ```
 
 You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
