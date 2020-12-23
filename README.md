@@ -30,7 +30,7 @@ Also, we provide a toy raw data (demo_data.csv) for you to test the whole pipeli
 
 ## Quick Demo
 
-To run the model (including data processing), clone the repo and copy the demo data (demo_data.csv) into src/LDA file archive by executing the following commands:
+To run the model (including data processing), clone the repo and copy the demo data (data/demo_data.csv) into src/LDA file archive by executing the following commands:
 
 ``` 
 git clone git@github.com:ludsl/Industry_classifcation_tool.git
