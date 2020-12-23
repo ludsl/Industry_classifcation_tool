@@ -42,6 +42,8 @@ You can use --rf to change the name of output file, --clusterNum to change the n
 
 #### To run the evaluation:
 
+Copy the LDA output data (LDA/LDA_output_file.csv) into src/Evaluation file archive by executing the following commands:
+
 ``` 
 cd src/Evaluation
 python evaluation.py --sec 1 --rf LDA_output_file
