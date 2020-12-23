@@ -1,8 +1,17 @@
 import csv
 import pandas as pd
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--irecf", type=str, required=True, help="output csv file of LDA model of region IREC")
+parser.add_argument("--walmidf", type=str, required=True, help="output csv file of LDA model of region WALMID")
+args = parser.parse_args()
+
+irecf = args.irecf + '.csv'
+walmidf = args.walmidf + '.csv'
 
 # irec
-irec = pd.read_csv('LDA_irec_65.csv')
+irec = pd.read_csv(irecf)
 irec_cyq_ridnum_dict = {}
 irec_cyq_dict = {}
 irec_cyd_ridweight_dict = {}
@@ -75,13 +84,13 @@ for idx, ridweight in zip(irec_clusterid, irec_ridweight):
 
 
 # walmid
-walmid = pd.read_csv('LDA_walmid_40.csv')
+walmid = pd.read_csv(walmidf)
 walmid_cyq_ridnum_dict = {}
 walmid_cyq_dict = {}
 walmid_cyd_ridweight_dict = {}
 for row in walmid.values.tolist():
     clusterid = row[0]
-    locale = 'IRELAND COMBINED'
+    locale = 'WALES/MIDLANDS'
     rid = row[2]
     year = row[3]
     quarter = row[4]
