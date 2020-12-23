@@ -34,7 +34,7 @@ To run the model (including data processing), clone the repo and decompress the 
 
 ``` 
 git clone git@github.com:ludsl/Industry_classifcation_tool.git
-cd LDA
+cd src/LDA
 python LDA.py --f sample.csv
 ```
 
@@ -43,12 +43,12 @@ You can use --rf to change the name of output file, --clusterNum to change the n
 #### To run the evaluation:
 
 ``` 
-cd Evaluation
+cd src/Evaluation
 python evaluation.py --sec 1 --rf LDA_output_file
 ``` 
 --sec 1 is for the evaluation of section level in SIC code, --sec 0 is for the division level in SIC code. 
 
 #### To use the powerbi software:
 
-You can open the Powerbi file. There is a user manual (.pdf) for detailed guidance. 
+You can open the src/Powerbi file. There is a user manual (.pdf) for detailed guidance. 
 
