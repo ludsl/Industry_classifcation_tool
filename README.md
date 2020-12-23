@@ -1,7 +1,7 @@
-# Industry_classifcation_tool
+# Industry Classifcation Tool
 Resource for industry classification IJOC submission
 
-# SPICS: An Unsupervised Framework for Analysingthe Spatiotemporal Evolution of Industry Clusters 
+# SPICS: An Unsupervised Framework for Analysing the Spatiotemporal Evolution of Industry Clusters 
 
 This repo contains the Python implementation of the paper SPICS: An Unsupervised Framework for Analysing the Spatiotemporal Evolution of Industry Clusters in IJOC (Software Tool)
 
@@ -45,6 +45,3 @@ python evaluation.py --sec 1 --rf LDA_output_file
 
 You can open the Powerbi file. There is a user manual (.pdf) for detailed guidance. 
 
-## Citation
-
-If you find the paper or the implementation helpful, please cite the following paper:
