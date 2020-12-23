@@ -26,16 +26,16 @@ https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sha
 https://mylingnan-my.sharepoint.com/:f:/g/personal/allentan_ln_edu_hk/Ek-O_ydpy-xApwg5bxE-ZKgBDQzzkFBTUh25b4ya7tciPg?e=k1qYKh
 ```
 
-Also, we provide a toy raw data (sample.csv) for you to test the whole pipeline.
+Also, we provide a toy raw data (demo_data.csv) for you to test the whole pipeline.
 
 ## Quick Demo
 
-To run the model (including data processing), clone the repo and decompress the demo data archive by executing the following commands:
+To run the model (including data processing), clone the repo and copy the demo data (demo_data.csv) into src/LDA file archive by executing the following commands:
 
 ``` 
 git clone git@github.com:ludsl/Industry_classifcation_tool.git
 cd src/LDA
-python LDA.py --f sample.csv
+python LDA.py --f demo_data.csv
 ```
 
 You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
