@@ -1,4 +1,5 @@
 # Industry Classifcation Tool
+
 Resource for industry classification IJOC submission
 
 # SPICS: An Unsupervised Framework for Analysing the Spatiotemporal Evolution of Industry Clusters 
