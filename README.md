@@ -16,7 +16,7 @@ This repo contains the Python implementation of the paper SPICS: An Unsupervised
 
 You can download the whole input data (.csv) and Power BI file (.pbix) with the following links:
 
-## Google Drive:
+#### Google Drive:
 
 ```
 https://drive.google.com/drive/folders/1SyTS4Gt_0IIF60-_LTZ0HdpbVGlI6DRH?usp=sharing
@@ -28,7 +28,7 @@ https://mylingnan-my.sharepoint.com/:f:/g/personal/allentan_ln_edu_hk/Ek-O_ydpy-
 
 Also, we provide a toy raw data (sample.csv) for you to test the whole pipeline.
 
-#### Quick Demo
+## Quick Demo
 
 To run the model (including data processing), clone the repo and decompress the demo data archive by executing the following commands:
 
