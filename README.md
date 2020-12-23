@@ -35,18 +35,18 @@ To run the model (including data processing), clone the repo and copy the demo d
 ``` 
 git clone git@github.com:ludsl/Industry_classifcation_tool.git
 cd src/LDA
-python LDA.py --f demo_data.csv
+python LDA.py --f demo_data.csv --rf LDA_output
 ```
 
 You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
 
 #### To run the evaluation:
 
-Copy the LDA output data (LDA/LDA_output_file.csv) into src/Evaluation file archive by executing the following commands:
+Copy the LDA output data (LDA/LDA_output.csv) into src/Evaluation file archive by executing the following commands:
 
 ``` 
 cd src/Evaluation
-python evaluation.py --sec 1 --rf LDA_output_file
+python evaluation.py --sec 1 --rf LDA_output
 ``` 
 --sec 1 is for the evaluation of section level in SIC code, --sec 0 is for the division level in SIC code. 
 
