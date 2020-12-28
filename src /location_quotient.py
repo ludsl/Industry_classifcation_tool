@@ -4,9 +4,6 @@ import spacy
 import numpy as np
 import math
 
-uk = pd.read_csv('uk_LDA_1.csv')
-ire = pd.read_csv('ire_LDA_1.csv')
-
 nlp = spacy.load('en_core_web_lg')
 
 # irec
