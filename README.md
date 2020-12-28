@@ -42,7 +42,7 @@ python LDA.py --f demo_data_IREC.csv --rf LDA_irec_output
 
 You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
 
-#### To run the evaluation:
+### To run the evaluation:
 
 Copy the LDA output data (LDA/LDA_output.csv) into src/Evaluation file archive by executing the following commands:
 
@@ -52,7 +52,7 @@ python evaluation.py --sec 1 --rf LDA_output
 ``` 
 --sec 1 is for the evaluation of section level in SIC code, --sec 0 is for the division level in SIC code. 
 
-#### To use the Power BI software:
+### To use the Power BI software:
 
 You can download and open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
 
