@@ -43,6 +43,14 @@ python LDA.py --f demo_data_IREC.csv --rf LDA_irec_output
 
 You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
 
+### To calculate the location quotient:
+Copy the LDA output of IREC and WALMID (LDA/IREC_LDA_output.csv and LDA/WALMID_LDA_output.csv) into scr/LQ file archive by executing the following commands:
+
+```
+cd src/LQ
+python location_quotient.py --irec IREC_LDA_output.csv --walmidf WALMID_LDA_output.csv
+```
+
 ### To run the evaluation:
 
 Copy the LDA output data (LDA/LDA_output.csv) into src/Evaluation file archive by executing the following commands:
