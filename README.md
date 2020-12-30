@@ -44,7 +44,7 @@ python LDA.py --f demo_data_IREC.csv --rf LDA_irec_output
 You can use --rf to change the name of output file, --clusterNum to change the number of clusters, and --keywordsNum to change the number of keywords in each cluster. 
 
 ### To calculate the location quotient:
-Copy the LDA output of IREC and WALMID (LDA/IREC_LDA_output.csv and LDA/WALMID_LDA_output.csv) into scr/LQ file archive by executing the following commands:
+Copy the LDA output of both IREC and WALMID (LDA/IREC_LDA_output.csv and LDA/WALMID_LDA_output.csv) into scr/LQ file archive by executing the following commands:
 
 ```
 cd src/LQ
@@ -65,7 +65,7 @@ python evaluation.py --sec 1 --rf LDA_output
 
 You can download and open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
 
-You can copy the LDA output of both IREC and WALMID to src/PowerBI and use to src/PowerBI/powerbi.py to generate the input data for the Power BI software by executing the following commands:
+You can copy the LDA output of both IREC and WALMID to src/PowerBI, and the output of location quotient (location_quotient.xlsx) and then use to src/PowerBI/powerbi.py to generate the input data for the Power BI software by executing the following commands:
 
 ```
 cd src/PowerBI/powerbi.py
