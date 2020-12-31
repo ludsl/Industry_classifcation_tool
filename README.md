@@ -31,7 +31,7 @@ https://mylingnan-my.sharepoint.com/:f:/g/personal/allentan_ln_edu_hk/Ek-O_ydpy-
 
 Also, we provide a toy raw data (demo_data_IREC.csv and demo_data_WALMID.csv) for you to test the whole pipeline in the data file.
 
-## Quick Demo
+## Demo
 
 To run the model (including data processing), clone this repo and copy the demo data (data/demo_data_IREC.csv or data/demo_data_WALMID.csv) into src/LDA file archive by executing the following commands:
 
