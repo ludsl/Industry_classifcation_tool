@@ -63,7 +63,7 @@ python evaluation.py --sec 1 --rf LDA_output
 
 ### To use the Power BI software:
 
-You can download and open the .pbix file in the above links, and there is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance. 
+You can download and open the .pbix file in the above links to use the Power BI software.
 
 You can copy the LDA output of both IREC and WALMID to src/PowerBI, and the output of location quotient (location_quotient.xlsx) and then use to src/PowerBI/powerbi.py to generate the input data for the Power BI software by executing the following commands:
 
@@ -72,6 +72,6 @@ cd src/PowerBI/powerbi.py
 python powerbi.py --irecf LDA_output_IREC.csv --walmidf LDA_output_WALMID.csv
 ```
 
-
+There is a user manual (docs/Manual_of_Power_BI.pdf) for detailed guidance to generate Power BI software. 
 
 
