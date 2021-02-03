@@ -10,9 +10,9 @@ This repo contains the Python implementation of the paper SPICS: An Unsupervised
 
 #### The codes have been tested with the following packages:
 * Python 3.6
-* Gensim
-* spaCy
-* pandas
+* Gensim 0.3.3
+* spaCy 2.3.2
+* pandas 0.25.1
 
 
 ## Input data and Power BI file 
