@@ -158,11 +158,11 @@ timer(global_time,local_time)
 ################################################################################################################
 # Learn the Coherence Model
 ################################################################################################################
-# print('Topic coherence...')
-# local_time = time.time()
-# coherence = CoherenceModel(model=lda, corpus=word_corpus, texts=lda_input, dictionary=word_dictionary, coherence='c_v')
-# print('coherence:', coherence.get_coherence())
-# timer(global_time,local_time)
+print('Topic coherence...')
+local_time = time.time()
+coherence = CoherenceModel(model=lda, corpus=word_corpus, texts=lda_input, dictionary=word_dictionary, coherence='c_v')
+print('coherence:', coherence.get_coherence())
+timer(global_time,local_time)
 
 ################################################################################################################
 # Pick keywords in each clusters
