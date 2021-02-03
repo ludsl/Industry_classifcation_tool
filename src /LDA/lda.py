@@ -27,7 +27,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--f", type=str, required=True, help="input csv file")
 parser.add_argument('--rf', type=str) # Using default can lose efficacy of "if args.rf is None:"   
 parser.add_argument('--delimeter', type=str, default=',',help="CSV delimeter character")
-parser.add_argument('--clusterNum', type=int, default=55, help="Number of clusters (default: 3)")
+parser.add_argument('--clusterNum', type=int, default=88, help="Number of clusters (default: 3)")
 parser.add_argument('--keywordNum', type=int, default=20, help="Number of keywords in each cluster (default: 5)")
 
 args = parser.parse_args()
@@ -158,11 +158,11 @@ timer(global_time,local_time)
 ################################################################################################################
 # Learn the Coherence Model
 ################################################################################################################
-print('Topic coherence...')
-local_time = time.time()
-coherence = CoherenceModel(model=lda, corpus=word_corpus, texts=lda_input, dictionary=word_dictionary, coherence='c_v')
-print('coherence:', coherence.get_coherence())
-timer(global_time,local_time)
+# print('Topic coherence...')
+# local_time = time.time()
+# coherence = CoherenceModel(model=lda, corpus=word_corpus, texts=lda_input, dictionary=word_dictionary, coherence='c_v')
+# print('coherence:', coherence.get_coherence())
+# timer(global_time,local_time)
 
 ################################################################################################################
 # Pick keywords in each clusters
