@@ -7,8 +7,8 @@ parser.add_argument("--irecf", type=str, required=True, help="output csv file of
 parser.add_argument("--walmidf", type=str, required=True, help="output csv file of LDA model of region WALMID")
 args = parser.parse_args()
 
-irecf = args.irecf + '.csv'
-walmidf = args.walmidf + '.csv'
+irecf = args.irecf
+walmidf = args.walmidf
 
 # irec
 irec = pd.read_csv(irecf)
